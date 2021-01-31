@@ -1,0 +1,18 @@
+.underline {
+    position: relative;
+    &:before {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: $black;
+    }
+    &--dark-gray {
+        &:before {
+            background-color: $dark-gray;
+        }
+    }
+}

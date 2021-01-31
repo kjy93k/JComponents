@@ -1,0 +1,32 @@
+// 색상 정의
+
+$black: #222;
+$white: #fff;
+$dark-gray: #888;
+$gray: #ddd;
+$light-gray: #f7f7f7;
+
+$colors: ();
+$colors: map-merge((
+    'black': $black,
+    'white': $white,
+    'dark-gray': $dark-gray,
+    'gray': $gray,
+    'light-gray': $light-gray
+), $colors);
+
+// 경로 정의
+$font-path: '/fonts';
+$icon-path: '/images/icon';
+$bg-path: '/images/bg';
+
+// 폰트 정의
+$lato: 'lato';
+$noto-sans: 'NotoSansCJKkr';
+
+//break point 정의
+$screen-xsm: 320px;
+$screen-sm: 768px;
+$screen-md: 1024px;
+$screen-lg: 1280px;
+$screen-xlg: 1440px;

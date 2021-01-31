@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.32.5"
+  },
+  "scripts": {
+    "sass": "sass scss:css --watch"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "private": true
+}

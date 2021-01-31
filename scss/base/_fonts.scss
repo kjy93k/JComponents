@@ -1,0 +1,20 @@
+@font-face {
+    font-family: #{$noto-sans};
+    font-weight: normal;
+    font-style: normal;
+    src: url('#{$font-path}/NotoSansCJKkr-Regular.otf');
+}
+
+@font-face {
+    font-family: #{$noto-sans};
+    font-weight: 700;
+    font-style: normal;
+    src: url('#{$font-path}/NotoSansCJKkr-Bold.otf');
+}
+
+@font-face {
+    font-family: #{$lato};
+    src:url('#{$font-path}/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
